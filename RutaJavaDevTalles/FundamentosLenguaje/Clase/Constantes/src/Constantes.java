@@ -1,0 +1,10 @@
+public class Constantes {
+    public static void main() {
+        // Así se declara una constante
+        final double TAX_RATE = 0.10;
+        
+        int grossSalary = 3000;
+        double netSalary = grossSalary * (1 - TAX_RATE);
+        System.out.println("netSalary = " + netSalary);
+    }
+}
